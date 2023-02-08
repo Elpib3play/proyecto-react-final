@@ -1,0 +1,9 @@
+@use "../../scss/utils/breakpoints.scss" as *;
+
+.item-detail-container {
+  padding-bottom: 2rem;
+
+  @include mq(small) {
+    padding-bottom: 3rem;
+  }
+}

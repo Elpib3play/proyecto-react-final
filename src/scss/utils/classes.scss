@@ -1,0 +1,58 @@
+@use "./breakpoints.scss" as *;
+
+.container {
+  width: min(100% - 5rem, 65em);
+  margin-inline: auto;
+}
+
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.section {
+  padding: 2rem 0 3rem;
+
+  @include mq(small) {
+    padding: 3rem 0 4rem;
+  }
+
+  @include mq(medium) {
+    padding: 4rem 0 5rem;
+  }
+}
+
+.btn {
+  margin-top: 0.5rem;
+  border: none;
+  padding: 1.125rem 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  background-color: #83aeb0;
+  color: #4b312f;
+  font-size: 1.15rem;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #679699;
+    color: #f4f4f4;
+  }
+}
+
+.bg-light {
+  background-color: #e2d1c1;
+}
+
+.line {
+  border: 1px solid rgba(99, 80, 79, 0.3);
+}
+
+.home-line {
+  margin-top: 4rem;
+}

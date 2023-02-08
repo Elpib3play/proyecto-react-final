@@ -1,0 +1,17 @@
+.overlay {
+  display: block;
+  position: fixed;
+  z-index: 99;
+}
+
+.left-menu {
+  display: block;
+  height: 100%;
+  width: 20%;
+  background-color: #83aeb0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
