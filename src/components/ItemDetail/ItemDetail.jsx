@@ -98,16 +98,6 @@ const ItemDetail = ({ data }) => {
               </span>
               superando los $10.000
             </p>
-            <div>
-              <input type="text" placeholder="Tu código postal" />
-              <button>Calcular</button>
-            </div>
-            <a
-              href="https://www.correoargentino.com.ar/formularios/cpa"
-              target="_blank"
-            >
-              No sé mi código
-            </a>
           </div>
         </div>
       </article>
